@@ -65,7 +65,7 @@ ggplot(
     size = 2.2) +
   geom_boxplot(
     aes(colour = taxon_name,
-        colour = after_scale(colorspace::darken(taxon_name, .7))),
+        colour = after_scale(colorspace::darken(colour, .7))),
     width = .12, # Adjust box width
     fill = NA,
     size = 1.1, # Size of box line
